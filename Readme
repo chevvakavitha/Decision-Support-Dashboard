@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI-Powered Decision Support Dashboard</title>
+</head>
+
+<body>
+
+<h1>🧠 AI-Powered Decision Support Dashboard</h1>
+
+<p>
+A <strong>production-grade, decision-first analytics system</strong> that converts raw numerical data into
+<strong>clear, explainable, and actionable decisions</strong> — without domain assumptions, fake AI, or chart-heavy dashboards.
+</p>
+
+<p>
+This project demonstrates <strong>decision intelligence</strong>, not exploratory data analysis.
+</p>
+
+<hr>
+
+<h2>🎯 Project Objective</h2>
+
+<p>
+Most analytics tools answer:
+</p>
+
+<blockquote>
+<p>“What does the data show?”</p>
+</blockquote>
+
+<p>
+This system answers:
+</p>
+
+<blockquote>
+<p><strong>“Given this data, what action should be taken now?”</strong></p>
+</blockquote>
+
+<p>
+It is designed for <strong>managers, founders, and analysts</strong> who need fast, trustworthy decisions.
+</p>
+
+<hr>
+
+<h2>🧠 Core Design Principles</h2>
+
+<ul>
+<li>Decision-first, not chart-first</li>
+<li>Rule-based and explainable logic</li>
+<li>Dataset-agnostic language</li>
+<li>No black-box AI</li>
+<li>One-screen executive clarity</li>
+</ul>
+
+<hr>
+
+<h2>✨ Key Features</h2>
+
+<h3>🔹 Universal Dataset Support</h3>
+<ul>
+<li>Accepts any CSV or Excel file</li>
+<li>No assumed schema or domain</li>
+<li>Automatically detects numeric columns</li>
+<li>Works across all dataset types</li>
+</ul>
+
+<h3>🔹 Decision Readiness Score (0–100)</h3>
+<ul>
+<li>Single score representing decision safety</li>
+<li>Derived from:</li>
+<ul>
+<li>Recent vs baseline change</li>
+<li>Variability (stability)</li>
+<li>Trend consistency</li>
+<li>Data sufficiency</li>
+</ul>
+<li>Fully mathematical and auditable</li>
+</ul>
+
+<h3>🔹 Priority Classification</h3>
+<p>
+The system assigns one clear priority:
+</p>
+<ul>
+<li><strong>High Priority</strong> — Immediate attention required</li>
+<li><strong>Medium Priority</strong> — Monitor and delay major actions</li>
+<li><strong>Low Priority</strong> — Safe to continue cautiously</li>
+</ul>
+
+<h3>🔹 Explainable Decision Logic</h3>
+<p>
+Each decision includes a <strong>“Why this decision?”</strong> section, such as:
+</p>
+<ul>
+<li>Recent values decreased compared to baseline</li>
+<li>Variability increased beyond stability threshold</li>
+<li>Trend consistency weakened</li>
+</ul>
+
+<p>No hidden logic. No vague explanations.</p>
+
+<h3>🔹 Decision Stability Indicator</h3>
+<ul>
+<li>High / Medium / Low stability</li>
+<li>Indicates how likely the decision is to change</li>
+<li>Helps assess reliability before acting</li>
+</ul>
+
+<h3>🔹 What-If Scenario Simulation</h3>
+<ul>
+<li>Interactive simulation of metric decrease</li>
+<li>Interactive simulation of variability increase</li>
+<li>Priority is recalculated deterministically</li>
+<li>No predictive guessing</li>
+</ul>
+
+<h3>🔹 Decision Comparison Snapshot</h3>
+<ul>
+<li>Side-by-side view of current vs simulated state</li>
+<li>Shows priority, score, and confidence differences</li>
+<li>Supports decision validation</li>
+</ul>
+
+<h3>🔹 Neutral Recommended Actions</h3>
+<ul>
+<li>Increase monitoring frequency</li>
+<li>Avoid decisions dependent on this metric</li>
+<li>Continue current approach cautiously</li>
+</ul>
+
+<p>
+All actions are <strong>dataset-agnostic</strong> and universally applicable.
+</p>
+
+<h3>🔹 Minimal Supporting Visualization</h3>
+<ul>
+<li>Small, secondary trend view</li>
+<li>Used only as reference</li>
+<li>Decision never depends on chart interpretation</li>
+</ul>
+
+<hr>
+
+<h2>🖥️ UI & UX Highlights</h2>
+
+<ul>
+<li>Executive hero section at the top</li>
+<li>Clear visual hierarchy</li>
+<li>Decision dominates the screen</li>
+<li>Collapsible sections reduce noise</li>
+<li>Professional color palette</li>
+<li>Designed for daily internal use</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ Technology Stack</h2>
+
+<ul>
+<li><strong>Python</strong></li>
+<li><strong>Streamlit</strong> — interactive web application</li>
+<li><strong>Pandas / NumPy</strong> — data processing</li>
+<li><strong>Matplotlib</strong> — minimal supporting visualization</li>
+</ul>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+AI-POWERED-DECISION-SUPPORT-DASHBOARD/
+├── app.py          # Main Streamlit application
+├── README.md       # Project documentation
+└── requirements.txt (optional)
+</pre>
+
+<hr>
+
+<h2>▶️ How to Run Locally</h2>
+
+<h3>1️⃣ Clone the repository</h3>
+<pre>
+git clone https://github.com/chevvakavitha/AI-POWERED-DECISION-SUPPORT-DASHBOARD.git
+cd AI-POWERED-DECISION-SUPPORT-DASHBOARD
+</pre>
+
+<h3>2️⃣ Install dependencies</h3>
+<pre>
+pip install streamlit pandas numpy matplotlib openpyxl
+</pre>
+
+<h3>3️⃣ Run the application</h3>
+<pre>
+streamlit run app.py
+</pre>
+
+<h3>4️⃣ Open in browser</h3>
+<pre>
+http://localhost:8501
+</pre>
+
+<hr>
+
+<h2>🧪 How to Use</h2>
+
+<ol>
+<li>Upload a CSV or Excel dataset</li>
+<li>Select a numeric column for evaluation</li>
+<li>Review the <strong>Final Decision Summary</strong></li>
+<li>Explore reasoning and scenario simulations</li>
+<li>Take action with confidence</li>
+</ol>
+
+<hr>
+
+<h2>💡 Why This Project Stands Out</h2>
+
+<p>
+Most portfolio projects show dashboards and charts.
+</p>
+
+<p>
+This project demonstrates:
+</p>
+
+<ul>
+<li>Decision intelligence</li>
+<li>Explainable AI principles</li>
+<li>Product-oriented thinking</li>
+<li>Risk-aware system design</li>
+<li>Executive-level usability</li>
+</ul>
+
+<hr>
+
+<h2>🔒 What This Project Intentionally Avoids</h2>
+
+<ul>
+<li>Domain guessing</li>
+<li>Fake AI summaries</li>
+<li>Black-box models</li>
+<li>Over-visualization</li>
+<li>Hard-coded assumptions</li>
+<li>Multi-page complexity</li>
+</ul>
+
+<hr>
+
+<h2>📌 Future Enhancements</h2>
+
+<ul>
+<li>Decision history tracking</li>
+<li>Multi-metric comparison</li>
+<li>Exportable decision reports</li>
+<li>Alert-based monitoring</li>
+<li>Cloud deployment</li>
+</ul>
+
+<hr>
+
+<h2>👤 Author</h2>
+
+<p>
+<strong>Cheva Kavitha</strong><br>
+Built as a professional, decision-centric analytics system to demonstrate:
+</p>
+
+<ul>
+<li>End-to-end product thinking</li>
+<li>Clean engineering practices</li>
+<li>Real-world decision system design</li>
+</ul>
+
+<hr>
+
+<p>
+<strong>This is not just a dashboard.</strong><br>
+<strong>It is a decision support system.</strong>
+</p>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-<h1>🧠 AI-Powered Decision Support Dashboard</h1>
+<h1>🧠 Decision-Support-Dashboard</h1>
 
 <p><strong>Decision-first analytics system</strong> that converts numerical data into clear,
 explainable, and actionable decisions without domain assumptions or fake AI.</p>
